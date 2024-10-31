@@ -5,6 +5,8 @@ import { useState } from "react";
 import { Redirect } from 'react-router-dom'; 
 import { useHistory } from "react-router-dom";
 
+
+
 const SignupForm = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -35,6 +37,7 @@ const SignupForm = () => {
     }
 
     return (
+        
         <div className='wrapper'>
             <form onSubmit={handleSubmit}>
                 <h1>Register</h1>
@@ -59,6 +62,9 @@ const SignupForm = () => {
                     <button className="buttonreg" type="button" onClick={() => navigate.push('/')}>Login</button>
                
             </form>
+  
+       
+
         </div>
     );
 };

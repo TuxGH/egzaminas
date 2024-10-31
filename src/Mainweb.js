@@ -12,7 +12,7 @@ import { MdEvent } from "react-icons/md";
 const App = () => {
   const [events, setEvents] = useState([
     { id: 1, title: 'Concert', date: '2024-10-15', location: 'City Square' },
-    { id: 2, title: 'Antanas', date: '2024-10-20', location: 'Art Gallery' },
+    { id: 2, title: 'icecream', date: '2024-10-20', location: 'Art Gallery' },
   ]);
 
   const [selectedEvent, setSelectedEvent] = useState(null);

@@ -1,5 +1,6 @@
 import './index.css';
 import LoginForm from './Components/LoginForm/LoginForm';
+import Main2 from './Components/website';
 import { BrowserRouter as Router, Route , Switch,  } from 'react-router-dom';
 import Web from './Mainweb';
 import SignupForm from './Components/SignUpForm/SignUpForm';
@@ -12,7 +13,7 @@ return (
  
     <Switch>
       <Route exact path="/">
-      <LoginForm/>
+      <LoginForm/><Main2/>
       </Route>
       <Route exact path="/Web">
       <Web></Web>

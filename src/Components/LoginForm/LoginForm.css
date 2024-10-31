@@ -29,7 +29,7 @@ box-sizing: border-box;
     height: 40px;
     background-color: black;
   }
-  
+
   .wrapper2 button:hover{
     background-color: rgb(63, 61, 61);
     cursor: pointer;
@@ -63,3 +63,7 @@ box-sizing: border-box;
     
   }
 
+.button2{
+  background-color: black;
+  color: white;
+}
