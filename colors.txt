@@ -1,0 +1,11 @@
+background color: #0a0917
+
+primary #8c85f4
+
+secondary #4a0f9e
+
+accent #972deb
+
+
+background : #842c2d ; 
+
